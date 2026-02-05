@@ -7,8 +7,8 @@ import threeHelper from '../contrib/WebARRocksObject/helpers/WebARRocksObjectThr
 // import mediaStream API helper:
 import mediaStreamAPIHelper from '../contrib/WebARRocksObject/helpers/WebARRocksMediaStreamAPIHelper.js'
 
-// import neural network model:
-import NN from '../../../../../../privateNeuralNets/NN_USQUARTER_10.json'
+// import neural network model (use bundled Sprite detector as default):
+import NN from '../contrib/WebARRocksObject/neuralNets/NN_SPRITE_1.json'
 
 import BackButton from '../components/BackButton'
 
@@ -23,7 +23,7 @@ const ObjectFollower = (props) => {
   const objRef = useRef()
   useEffect(() => {
     const threeObject3D = objRef.current
-    threeHelper.set_objectFollower('USQUARTER', threeObject3D)
+    threeHelper.set_objectFollower('SPRITECAN', threeObject3D)
   })
 
   const s = 1
@@ -78,7 +78,7 @@ const Coin = (props) => {
     loadNNOptions: {
       notHereFactor: 0.0,
       paramsPerLabel: {
-        USQUARTER: {
+        SPRITECAN: {
           thresholdDetect: 0.6
         }
       }

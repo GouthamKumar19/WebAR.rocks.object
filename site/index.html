@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebAR.rocks.object Demo Hub</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">WebAR.rocks.object</p>
+        <h1>All demos. One launchpad.</h1>
+        <p class="lede">Explore camera-only prototypes, Three.js overlays, WebXR experiments, and the React/Vite bundle from a single page.</p>
+      </div>
+      <label class="search">
+        <span>Filter demos</span>
+        <input id="search" type="search" placeholder="Type e.g. threejs, coffee, webxr..." autocomplete="off">
+      </label>
+    </header>
+    <main id="demoGrid" class="grid" aria-live="polite"></main>
+    <footer>
+      <p>Need a custom neural network? Train it with <a href="https://github.com/WebAR-rocks/WebAR.rocks.train" target="_blank" rel="noopener">WebAR.rocks.train</a>.</p>
+    </footer>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
