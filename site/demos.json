@@ -1,0 +1,74 @@
+[
+  {
+    "id": "debug-detection",
+    "title": "Debug Detection",
+    "description": "Console-style viewer that logs detected CUP/CHAIR/BICYCLE/LAPTOP labels via NN_OBJ4_0.",
+    "path": "demos/debugDetection/index.html",
+    "tags": ["vanilla", "camera"],
+    "status": "stable"
+  },
+  {
+    "id": "cat-detector",
+    "title": "Cat Detector",
+    "description": "Specialized NN_CAT demo that highlights feline faces from the live webcam feed.",
+    "path": "demos/cat/index.html",
+    "tags": ["vanilla", "cat"],
+    "status": "stable"
+  },
+  {
+    "id": "sprite-can",
+    "title": "Three.js Sprite Can",
+    "description": "Place a Sprite soda can mesh that locks onto the detected SPRITECAN object using Three.js overlays.",
+    "path": "demos/threejs/sprite/index.html",
+    "tags": ["threejs", "overlay"],
+    "status": "stable"
+  },
+  {
+    "id": "coffee-cup-threejs",
+    "title": "AR Coffee",
+    "description": "Standalone coffee-cup animation anchored to the CUP label with NN_COFFEE and Three.js rendering.",
+    "path": "demos/threejs/ARCoffee/index.html",
+    "tags": ["threejs", "cup"],
+    "status": "stable"
+  },
+  {
+    "id": "keyboard-overlay",
+    "title": "Keyboard Tracking",
+    "description": "Keyboard-specific tracker demonstrating 6DoF pose plus overlay hints on a detected keyboard.",
+    "path": "demos/threejs/keyboard/index.html",
+    "tags": ["threejs", "6dof"],
+    "status": "stable"
+  },
+  {
+    "id": "coin-target",
+    "title": "Three.js Coin",
+    "description": "Minimal example showing how to attach floating 3D content to a round marker or coin-sized target.",
+    "path": "demos/threejs/coin/index.html",
+    "tags": ["threejs", "marker"],
+    "status": "beta"
+  },
+  {
+    "id": "webxr-labels",
+    "title": "WebXR Object Labelling",
+    "description": "Demonstrates WebXR viewer integration with on-device detection and floating label annotations.",
+    "path": "demos/webxr/index.html",
+    "tags": ["webxr", "labels"],
+    "status": "experimental"
+  },
+  {
+    "id": "webxr-coffee",
+    "title": "WebXR Coffee",
+    "description": "Place the animated AR Coffee experience inside a WebXR viewer session on supported devices.",
+    "path": "demos/webxrCoffee/index.html",
+    "tags": ["webxr", "coffee"],
+    "status": "experimental"
+  },
+  {
+    "id": "react-three-fiber-pack",
+    "title": "React + Three Fiber Pack",
+    "description": "Modern ES6/Vite project bundling several demos with React components and post-processing effects.",
+    "path": "reactViteThreeFilberDemos/webar-object-demos/dist/index.html",
+    "tags": ["react", "vite", "three-fiber"],
+    "status": "build"
+  }
+]
